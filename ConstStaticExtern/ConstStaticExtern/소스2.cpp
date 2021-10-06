@@ -1,12 +1,12 @@
-#include "Çì´õ.h"
+ï»¿#include "í—¤ë”.h"
 
 int main() {
 
 	MyClass* c = new MyClass();
 	c->exam1();
 
-	//c->exam2();		//ÀÌ·¸°Ô º¸´Ù´Â
-	MyClass::exam2();	//ÇØ´ç ÁÙÀÌ ´õ ¸Â´Â ¹æ¹ý
+	//c->exam2();		//ì´ë ‡ê²Œ ë³´ë‹¤ëŠ”
+	MyClass::exam2();	//í•´ë‹¹ ì¤„ì´ ë” ë§žëŠ” ë°©ë²•
 
 	return 0;
 }

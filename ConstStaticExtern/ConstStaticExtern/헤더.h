@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include <string>
@@ -9,12 +9,12 @@
 class MyClass {
 public:
 	int a;
-	static int static_member_int;   //¼Ò½ºÆÄÀÏ¿¡ µû·Î ¸öÃ¼¸¦ ¸¸µé¾îÁà¾ß ÇÑ´Ù.
+	static int static_member_int;   //ì†ŒìŠ¤íŒŒì¼ì— ë”°ë¡œ ëª¸ì²´ë¥¼ ë§Œë“¤ì–´ì¤˜ì•¼ í•œë‹¤.
 	void exam1();
 	static void exam2();
 };
 
-extern int displayData[GRID_HEIGHT][GRID_WIDTH];  //extern : ¿ÜºÎ¿¡ Á¸ÀçÇÑ´Ù
-// ÇÁ·Î±×·¥ ÀüÃ¼¿¡¼­ ¾²´Â Àü¿ªº¯¼ö
-//¼Ò½ºÆÄÀÏÀÌ´ø Çì´õÆÄÀÏÀÌ´ø ´Ù ¾µ ¼ö ÀÖ´Ù.
-//extern À¸·Î ¼±¾ğ µÈ º¯¼ö´Â ¸µÅ·À» ÇÑ´Ù. 
+extern int displayData[GRID_HEIGHT][GRID_WIDTH];  //extern : ì™¸ë¶€ì— ì¡´ì¬í•œë‹¤
+// í”„ë¡œê·¸ë¨ ì „ì²´ì—ì„œ ì“°ëŠ” ì „ì—­ë³€ìˆ˜
+//ì†ŒìŠ¤íŒŒì¼ì´ë˜ í—¤ë”íŒŒì¼ì´ë˜ ë‹¤ ì“¸ ìˆ˜ ìˆë‹¤.
+//extern ìœ¼ë¡œ ì„ ì–¸ ëœ ë³€ìˆ˜ëŠ” ë§í‚¹ì„ í•œë‹¤. 

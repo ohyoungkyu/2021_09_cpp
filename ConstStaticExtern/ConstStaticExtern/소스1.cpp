@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include <string>
 
@@ -6,7 +6,7 @@
 
 class Person {
 public:
-	const int age;	// º¯¼öÇüÅÂÀÇ °ø°£À» °®°íÀÖ´Â »ó¼ö´Ù. -> °­Á¦ÀûÀ¸·Î ¹Ù²Ü ¼ö ¾ø´Ù.
+	const int age;	// ë³€ìˆ˜í˜•íƒœì˜ ê³µê°„ì„ ê°–ê³ ìˆëŠ” ìƒìˆ˜ë‹¤. -> ê°•ì œì ìœ¼ë¡œ ë°”ê¿€ ìˆ˜ ì—†ë‹¤.
 
 	Person(int n) : age(n) {
 
