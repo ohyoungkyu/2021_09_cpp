@@ -29,6 +29,7 @@ public:
 			for (int i = 0; i < count; i++) {
 				newArray[i] = arrayItem[i];
 			}
+			delete[] arrayItem;
 			arrayItem = newArray;
 			arrayItem[count] = value;
 			count++;
@@ -48,6 +49,15 @@ int main() {
 	m.putValue(600);
 	m.putValue(700);
 	m.putValue(800);
+	m.putValue(900);
+	//m.putValue(1000);
+	//m.putValue(1100);
+	//m.putValue(1200);
+	//m.putValue(1300);
+	//m.putValue(1400);
+	//m.putValue(1500);
+	//m.putValue(1600);
+	//m.putValue(1700);
 
 	for (int i = 0; i < m.count; i++) {
 		printf("%d\n", m.arrayItem[i]);
